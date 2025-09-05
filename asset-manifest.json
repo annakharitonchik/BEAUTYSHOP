@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/BEAUTYSHOP/static/css/main.506c82e1.css",
-    "main.js": "/BEAUTYSHOP/static/js/main.ff112935.js",
+    "main.css": "/BEAUTYSHOP/static/css/main.b6b9b529.css",
+    "main.js": "/BEAUTYSHOP/static/js/main.f1f61f3c.js",
     "index.html": "/BEAUTYSHOP/index.html",
-    "main.506c82e1.css.map": "/BEAUTYSHOP/static/css/main.506c82e1.css.map",
-    "main.ff112935.js.map": "/BEAUTYSHOP/static/js/main.ff112935.js.map"
+    "main.b6b9b529.css.map": "/BEAUTYSHOP/static/css/main.b6b9b529.css.map",
+    "main.f1f61f3c.js.map": "/BEAUTYSHOP/static/js/main.f1f61f3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.506c82e1.css",
-    "static/js/main.ff112935.js"
+    "static/css/main.b6b9b529.css",
+    "static/js/main.f1f61f3c.js"
   ]
 }
