@@ -12,18 +12,18 @@ const Category = ({ categories, onChooseCategory }) => {
 
   return (
     <>
-      <form>
+      <form className="Category">
         <select
           name="animalkind"
           onChange={chooseCategory}
           value={currCategory}
         >
-          <option value="" disabled selected>
+          <option value="" disabled>
             Category
           </option>
           <option value="All">all</option>
           {categories.map((category, i) => (
-            <option value={category} key={i} >
+            <option value={category} key={i}>
               {category}
             </option>
           ))}

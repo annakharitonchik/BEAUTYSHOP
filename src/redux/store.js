@@ -1,10 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-
-import companyDataReducer from "./beautyItems.js";
-
+import shopDataReducer from "./beautyItemsSlice.js";
 export const store = configureStore({
   reducer: {
-    companyData: companyDataReducer,
+    shopData: shopDataReducer,
   },
   // the thunk middleware adds automatically
 });

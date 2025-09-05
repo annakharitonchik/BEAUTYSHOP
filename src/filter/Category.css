@@ -1,0 +1,8 @@
+.Category select {
+  padding: 7px;
+
+  border: 3px solid #ccc;
+  border-radius: 6px;
+  color: rosybrown;
+  font-weight: 600;
+}

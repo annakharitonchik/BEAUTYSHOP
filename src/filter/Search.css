@@ -1,0 +1,79 @@
+﻿
+.Search input {
+  padding: 7px;
+  border: 3px solid #ccc;
+  border-radius: 6px;
+ 
+}
+a {
+  color: black;
+}
+.SearchingList {
+  list-style: none;
+  margin: 0;
+  padding: 7px;
+  width: 500px;
+  border: 3px solid #ccc;
+  border-top: none;
+  border-radius: 6px;
+  background: #fff;
+  z-index: 10;
+  position: absolute;
+  top: 115px;
+  max-height: 200px;
+  overflow-y: auto;
+  color: black;
+  align-self: center;
+}
+
+.SearchingList li {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+.CartFromFilter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.SearchingList li:hover {
+  background: #f9f9f9;
+}
+
+.SearchingList img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+@media (min-width: 1200px) {
+  .Search input,
+  .SearchingList {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 900px) {
+  .Search input,
+  .SearchingList {
+    width: 500px;
+  }
+}
+
+@media (max-width: 899px) and (min-width: 600px) {
+  .Search input,
+  .SearchingList {
+    width: 400px;
+  }
+}
+
+@media (max-width: 599px) {
+  .Search input,
+  .SearchingList {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .SearchingList {
+    top: 155px
+  }
+}

@@ -10,15 +10,15 @@ import {
   addClient,
   animationForAdd,
   getCompanyData,
-} from "../redux/beautyItems.js";
+} from "../redux/beautyItemsSlice.js";
 
 const BeautyShopData = ({ children }) => {
   const dispatch = useDispatch();
-  let products = useSelector((state) => state.companyData.productsArr);
-  let companyName = useSelector((state) => state.companyData.companyName);
-  let clientKey = useSelector((state) => state.companyData.productsArr.id);
-  let dataLoadError = useSelector((state) => state.companyData.dataLoadError);
-  let dataLoadState = useSelector((state) => state.companyData.dataLoadState);
+  let products = useSelector((state) => state.shopData.productsArr);
+  let companyName = useSelector((state) => state.shopData.companyName);
+  let clientKey = useSelector((state) => state.shopData.productsArr.id);
+  let dataLoadError = useSelector((state) => state.shopData.dataLoadError);
+  let dataLoadState = useSelector((state) => state.shopData.dataLoadState);
 
   const [clientsFilter, setClientsFilter] = useState("all"); // active | blocked
 
