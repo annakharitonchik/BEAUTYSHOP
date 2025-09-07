@@ -5,12 +5,10 @@ import { useDispatch } from "react-redux";
 import {
   saveBasketForUser,
   deleteAndSaveBasket,
-} from "../redux/beautyItemsSlice.js";
-
-import {
   decrementQuantity,
   incrementQuantity,
-} from "../redux/beautyItemsSlice";
+} from "../redux/beautyItemsSlice.js";
+
 const CheckoutItem = React.memo((props) => {
   const dispatch = useDispatch();
   return (
