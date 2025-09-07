@@ -89,11 +89,23 @@ a {
   .Products {
     grid-template-columns: repeat(2, 1fr);
   }
+  .Category {
+    height: 34px;
+  }
+  select {
+    height: 100%;
+  }
 }
 
 @media (max-width: 599px) {
   .Products {
     grid-template-columns: 1fr;
+  }
+  .Category {
+    height: 34px;
+  }
+  select {
+    height: 100%;
   }
 }
 
@@ -102,5 +114,11 @@ a {
     display: flex;
     gap: 5px;
     flex-direction: column-reverse;
+  }
+  .Category {
+    height: 34px;
+  }
+  select {
+    height: 100%;
   }
 }
