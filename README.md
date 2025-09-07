@@ -53,4 +53,4 @@ Errors are shown in the console.
     npm run deploy
   ```
 
-Check out the production version of the project here: [Beauty Shop](https://your-username.github.io/repository-name)
+Check out the production version of the project here: [Beauty Shop](https://annakharitonchik.github.io/BEAUTYSHOP/)
