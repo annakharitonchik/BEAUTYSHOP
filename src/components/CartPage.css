@@ -1,7 +1,6 @@
 .CartPage {
   display: flex;
   flex-direction: column;
-
   .Name,
   .Price,
   .Add {
@@ -13,8 +12,7 @@
     padding: 10px;
     margin: 0 auto;
   }
- 
- 
+
   .Name {
     font-size: 1.5rem;
     text-align: center;
@@ -26,7 +24,7 @@
     display: flex;
     align-items: center;
     span {
-      font-size: 2rem;
+      font-size: 1.6rem;
       text-align: center;
     }
   }
