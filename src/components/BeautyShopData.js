@@ -27,7 +27,7 @@ const BeautyShopData = ({ children }) => {
   }, [dispatch]);
 
   const doTextChanged = (info) => {
-    console.log("Редактируем клиента:", info);
+    // console.log("Редактируем клиента:", info);
     dispatch(textChanged(info));
   };
   const doDeleteandAnimation = (id) => {
